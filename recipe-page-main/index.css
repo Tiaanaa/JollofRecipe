@@ -1,0 +1,72 @@
+@font-face{
+    font-family: 'MyCustomFont';
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'MyFont';
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'MyCustomFont';
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+div{
+    padding: 10px;;
+    margin: 10px;
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    display: block;
+    border-radius: 10px;
+} 
+h1{
+    font-family: 'MyFont';
+    color: hsl(24, 5%, 18%);
+}
+img{
+   border-radius: 10px;
+   width: 100%;
+}
+.prepTime{
+    background-color: hsl(330, 100%, 98%);
+    width: 90%;
+}
+h4{
+    color:hsl(332, 51%, 32%);
+}
+h3{
+    color: hsl(14, 45%, 36%);
+}
+td{
+    padding: 5px;
+    margin: 20px;
+    /* border-bottom: 1px solid gray; */
+}
+.measurement{
+    color: hsl(14, 45%, 36%);
+}
+
+@media only screen and (max-width: 768px){
+
+    div{
+        width: 100%;
+        padding: 10px;
+        margin: 0px;
+        text-align: left;
+        border-radius: 0;
+    }
+    img{
+        border-radius: 0%;
+    }
+}
